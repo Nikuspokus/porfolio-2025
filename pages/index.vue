@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <h1>Bienvenue sur mon portfolio !</h1>
-    <p>Je suis Nicolas Marquillier, développeur JavaScript.</p>
-
+    <h1>Titre Teset</h1>
+    <UButton color="primary">Mon bouton</UButton>
     <section>
       <h2>Projets récents</h2>
       <ul>
@@ -32,8 +31,6 @@ const projects = [
 <style scoped>
 .container {
   max-width: 800px;
-  margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 </style>
