@@ -1,6 +1,13 @@
 <template>
+  <NPageHero
+    title="Votre solution SaaS complète"
+    description="Créez, gérez et développez votre entreprise avec une solution intuitive et performante."
+    :primaryAction="{ label: 'Commencer maintenant', link: '/inscription' }"
+    :secondaryAction="{ label: 'En savoir plus', link: '/features' }"
+    image="/images/hero-image.png"
+  />
   <div class="container">
-    <h1>Titre Teset</h1>
+    <h1>Titre Test</h1>
     <UButton color="primary">Mon bouton</UButton>
     <section>
       <h2>Projets récents</h2>
@@ -13,7 +20,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import NPageHero from "@/components/NPageHero.vue";
+
 const projects = [
   {
     id: 1,

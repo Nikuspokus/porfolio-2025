@@ -15,6 +15,10 @@ body {
     color: #42b883;
     text-decoration: none;
   }
+
+  .secondary-text {
+    color: #4a5568;
+  }
   
   @media (max-width: 768px) {
     .project-list {
