@@ -4,6 +4,7 @@
   >
     <div
       class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
+      style="display: flex; justify-content: space-between; padding: 10em 0"
     >
       <!-- Contenu principal -->
       <div>
